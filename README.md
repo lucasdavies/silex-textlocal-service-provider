@@ -1,2 +1,2 @@
-# silex-textlocal-service-provider
-A Textlocal Service Provider for Silex
+# Silex Textlocal Service Provider
+A Textlocal Service Provider for Silex.

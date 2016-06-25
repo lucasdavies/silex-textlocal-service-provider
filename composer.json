@@ -1,0 +1,17 @@
+{
+    "name": "lucas/textlocal-silex-provider",
+    "description": "A Textlocal Service Provider for Silex.",
+    "type": "library",
+    "keywords": [
+        "textlocal",
+        "silex"
+    ],
+    "homepage": "https://github.com/lucasdavies/silex-textlocal-service-provider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Davies",
+            "email": "lucasdavies@gmail.com"
+        }
+    ]
+}
