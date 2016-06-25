@@ -3,7 +3,7 @@
 namespace LucasDavies\Silex;
 
 use Pimple\Container;
-use Silex\ServiceProviderInterface;
+use Pimple\ServiceProviderInterface;
 
 class TextlocalServiceProvider implements ServiceProviderInterface
 {
@@ -14,12 +14,12 @@ class TextlocalServiceProvider implements ServiceProviderInterface
      */
     public function register(Container $app)
     {
-        $app['textlocal'] = $app->share(function () use ($app) {
+        $app['textlocal'] = function () use ($app) {
             return new Textlocal(
                 $app['textlocal.username'],
                 $app['textlocal.hash'],
                 $app['textlocal.apiKey']
             );
-        });
+        };
     }
 }
