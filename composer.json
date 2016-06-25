@@ -13,5 +13,6 @@
             "name": "Lucas Davies",
             "email": "lucasdavies@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "alpha"
 }
