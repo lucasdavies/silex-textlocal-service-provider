@@ -14,5 +14,9 @@
             "email": "lucasdavies@gmail.com"
         }
     ],
-    "minimum-stability": "alpha"
+    "autoload": {
+        "psr-4": {
+            "LucasDavies\\Silex\\": "src/"
+        }
+    }
 }
