@@ -1,5 +1,5 @@
 {
-    "name": "lucas/textlocal-silex-provider",
+    "name": "lucasdavies/textlocal-silex-provider",
     "description": "A Textlocal Service Provider for Silex.",
     "type": "library",
     "keywords": [
