@@ -2,6 +2,8 @@
 
 namespace LucasDavies\Silex;
 
+use \Exception;
+
 /**
  * Textlocal API2 Wrapper Class
  *
