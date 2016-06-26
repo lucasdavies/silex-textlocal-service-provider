@@ -1,2 +1,10 @@
 # Silex Textlocal Service Provider
-A Textlocal Service Provider for Silex.
+A very basic Textlocal Service Provider for Silex.
+
+Includes the Textlocal library itself.
+
+Installation
+------------
+```sh
+composer require lucasdavies/textlocal-silex-provider
+```
